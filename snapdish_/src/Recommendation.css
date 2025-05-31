@@ -1,0 +1,157 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+  }
+  
+  .sidebar {
+    width: 250px; /* pastikan Sidebar fixed width */
+    background-color: #f0f0f0;
+  }
+  
+  .main-content {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 30px 50px; /* Atur padding sesuai selera */
+    background-color: #ffffff;
+    overflow-y: auto;
+  }
+  
+  .form-body {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+  }
+  
+  .mt-auto {
+    margin-top: auto;
+  }
+  
+  
+  
+  /* Upload Section */
+  .upload-section {
+    background-color: #ecf1d8;
+    padding: 16px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    margin-bottom: 20px;
+  }
+  
+  .upload-label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  
+  .upload-img {
+    height: 120px;
+    object-fit: cover;
+    border-radius: 12px;
+    margin-bottom: 10px;
+  }
+  
+  .upload-text {
+    font-size: 16px;
+    color: #666;
+    text-align: center;
+  }
+  
+  .upload-icon {
+    font-size: 32px;
+    color: #888;
+  }
+  
+  /* Form Section */
+  .form-section {
+    padding: 16px;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.08);
+    margin-bottom: 24px;
+  }
+  
+  .form-title {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 8px;
+    color: #333;
+  }
+  
+  .checkbox-group,
+  .radio-group {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+  }
+  
+  .checkbox-group label,
+  .radio-group label {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+  
+  .checkbox-group input,
+  .radio-group input {
+    accent-color: #ec4899;
+  }
+  
+  .input-text {
+    width: 100%;
+    padding: 10px;
+    margin-top: 8px;
+    border-radius: 8px;
+    background-color: #f9d0d6;
+    border: 1px solid #ec4899;
+  }
+  
+  /* Goals Section */
+  .goals-button {
+    padding: 8px 12px;
+    font-size: 14px;
+    background-color: #ec4899;
+    color: #fff;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border: none;
+  }
+  
+  .goals-button.selected {
+    background-color: #a855f7;
+  }
+  
+  .goals-button:hover {
+    background-color: #f472b6;
+  }
+  
+  /* Submit Button */
+  .submit-button {
+    padding: 10px 16px;
+    font-size: 14px;
+    background-color: #ec4899;
+    color: #fff;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-button:hover {
+    background-color: #d946ef;
+  }
+  
